@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OC GLOBAL TECH LTD</title>
+<style>
+body{margin:0;font-family:Arial;background:#f5f7ff;color:#111}
+header{background:#0d6efd;color:white;padding:60px 20px;text-align:center}
+.card{background:white;max-width:650px;margin:-30px auto 20px;padding:30px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.1);text-align:center}
+.btn{display:block;background:#0d6efd;color:white;padding:16px;border-radius:12px;text-decoration:none;font-weight:bold;margin:12px 0}
+</style>
+</head>
+<body>
+<header>
+<h1>OC GLOBAL TECH LTD</h1>
+<p>Port Harcourt's Emerging Tech Powerhouse</p>
+</header>
+<div class="card">
+<h2>We Build CONNECTI, LOYALS & REALITY</h2>
+<p>Official Tech Company from Port Harcourt, Nigeria.</p>
+<a class="btn" href="#">Download CONNECTI on Play Store - Coming Soon</a>
+<a class="btn" style="background:#111" href="mailto:ocglobaltech@gmail.com">Contact Us: ocglobaltech@gmail.com</a>
+<p>© 2026 OC GLOBAL TECH LTD</p>
+</div>
+</body>
+</html>
