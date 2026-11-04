@@ -1,28 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OC GLOBAL TECH LTD</title>
+<title>OC Global Tech - Connect, Chat, Create, Go Global</title>
 <style>
-body{margin:0;font-family:Arial;background:#f5f7ff;color:#111}
-header{background:#0d6efd;color:white;padding:60px 20px;text-align:center}
-.card{background:white;max-width:650px;margin:-30px auto 20px;padding:30px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.1);text-align:center}
-.btn{display:block;background:#0d6efd;color:white;padding:16px;border-radius:12px;text-decoration:none;font-weight:bold;margin:12px 0}
+body{margin:0;font-family:Arial;background:#000;color:#fff;text-align:center}
+.header{padding:20px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:900;font-size:18px}.logo span{color:#FFD700}
+.btn{background:#FFD700;color:#000;padding:10px 18px;border-radius:20px;font-weight:bold;text-decoration:none}
+.hero{padding:40px 20px}
+.hero h1{font-size:32px;line-height:1.2}.hero h1 span{color:#FFD700}
+.card{background:#111;border:1px solid #333;border-radius:20px;padding:20px;margin:15px;text-align:left}
+.card h3{margin:5px 0}.tag{font-size:12px;color:#aaa}
+.wait{background:#FFD700;color:#000;padding:25px;margin:15px;border-radius:20px}
+input{padding:12px;border-radius:20px;border:none;width:70%}
+button{background:#000;color:#fff;padding:12px 20px;border-radius:20px;border:none;font-weight:bold}
+.footer{padding:20px;color:#777;font-size:12px}
 </style>
 </head>
 <body>
-<header>
-<h1>OC GLOBAL TECH LTD</h1>
-<p>Port Harcourt's Emerging Tech Powerhouse</p>
-</header>
-<div class="card">
-<h2>We Build CONNECTI, LOYALS & REALITY</h2>
-<p>Official Tech Company from Port Harcourt, Nigeria.</p>
-<a class="btn" href="#">Download CONNECTI on Play Store - Coming Soon</a>
-<a class="btn" style="background:#111" href="mailto:ocglobaltech@gmail.com">Contact Us</a>
-<p>© 2026 OC GLOBAL TECH LTD</p>
+<div class="header"><div class="logo">OC <span>GLOBAL TECH</span></div><a class="btn" href="#invest">Investor →</a></div>
+
+<div class="hero">
+<p style="color:#FFD700;font-weight:bold;letter-spacing:2px;font-size:11px">ONE ECOSYSTEM • ONE WALLET • ONE COMMUNITY</p>
+<h1>The World Is Connected.<br><span>Now Africa Will Connect It.</span></h1>
+<p style="color:#aaa">CONNECT + GLO CHAT + ROYAL PICTURES + interGlo<br>Meet. Chat. Create. Work Globally. Earn.</p>
+<a class="btn" href="#apps">Explore Apps →</a>
+<p style="margin-top:20px">4 APPS | 40K TARGET USERS | 90 DAYS TO LAUNCH</p>
 </div>
+
+<div id="apps">
+<div class="card"><h3>🌍 CONNECT</h3><p class="tag">Meet The World</p><p>Tap MATCH and meet someone instantly — friendship, business, dating, gaming, study.</p><p>✓ MATCH Button ✓ Verified Profiles ✓ Groups & Communities</p></div>
+<div class="card"><h3>💬 GLO CHAT</h3><p class="tag">Talk To The Whole World</p><p>Global chat with real-time translation + wallet inside chat.</p><p>✓ Translation 20+ Languages ✓ Voice + Video ✓ GLO Wallet</p></div>
+<div class="card"><h3>👑 ROYAL PICTURES</h3><p class="tag">Create, Earn, Go Viral</p><p>TikTok + YouTube + Instagram in one app. Built for Africa. Earn gifts, Boost, withdraw in 24hrs.</p><p>✓ For You Page ✓ 4K Videos ✓ Royal Wallet ✓ Blue Tick $20</p></div>
+<div class="card"><h3>✈️ interGlo</h3><p class="tag">Go Global — Work, Business & Travel</p><p>Find global jobs, clients, business partners, and travel opportunities.</p><p>✓ Global Jobs ✓ Marketplace ✓ Business Match ✓ Visa Guide</p></div>
+</div>
+
+<div class="wait">
+<h2>Join The Waitlist</h2>
+<p>Be first to use all 4 apps</p>
+<input type="email" placeholder="Your email / WhatsApp" id="email">
+<button onclick="alert('You are on the list! We will notify you at launch.')">JOIN</button>
+<p style="font-size:11px;margin-top:10px">Founder: Odera Chidalu Vitalis • Port Harcourt, Nigeria</p>
+</div>
+
+<div id="invest" class="card">
+<h2>For Investors</h2>
+<p>We are raising pre-seed to launch on Play Store + App Store.</p>
+<p><b>Revenue:</b> Gifts (30%) • Boost (100%) • Blue Tick $20 • Wallet Fees • Marketplace 10-15% • Ads</p>
+<a class="btn" href="mailto:oderachidalu.vitalis@gmail.com">EMAIL FOR PITCH DECK →</a>
+</div>
+
+<div class="footer">© 2026 OC Global Tech • Port Harcourt, Nigeria<br>WhatsApp connected your contacts. TikTok made you viral but never paid you.<br>OC Global Tech will connect you, let you chat, create, work globally, and earn.</div>
 </body>
 </html>
-
